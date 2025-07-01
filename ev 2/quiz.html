@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz - EV Battery Swapping</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <script defer src="js/script.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- ✅ Navigation Bar -->
+  <nav class="bg-blue-700 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">EV Battery Swapping</h1>
+      <ul class="flex gap-6 text-sm md:text-base">
+        <li><a href="index.html" class="hover:text-yellow-300 transition">Home</a></li>
+        <li><a href="about.html" class="hover:text-yellow-300 transition">About</a></li>
+        <li><a href="glossary.html" class="hover:text-yellow-300 transition">Glossary</a></li>
+        <li><a href="quiz.html" class="hover:text-yellow-300 transition">Quiz</a></li>
+        <li><a href="videos.html" class="hover:text-yellow-300 transition">Videos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Quiz Section -->
+  <section class="p-8 max-w-4xl mx-auto" data-aos="fade-up">
+    <h2 class="text-3xl font-bold text-blue-800 mb-6 text-center">Test Your Knowledge</h2>
+
+    <div id="quiz" class="space-y-6">
+      <!-- Quiz questions will be inserted by script.js -->
+    </div>
+
+    <button id="submit" class="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded transition">
+      Submit
+    </button>
+
+    <p id="result" class="mt-4 font-semibold text-green-600 text-center"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 mt-12">
+    <div class="container mx-auto text-center">
+      <p class="mb-4 text-lg">Connect with us:</p>
+      <div class="flex justify-center gap-4 mb-4 flex-wrap">
+        <a href="https://wa.me/917709994306" target="_blank"
+           class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition">
+          WhatsApp
+        </a>
+        <a href="https://www.instagram.com/_daminii_15_/" target="_blank"
+           class="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-lg transition">
+          Instagram
+        </a>
+        <a href="https://www.facebook.com/_daminii_15_/" target="_blank"
+           class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition">
+          Facebook
+        </a>
+      </div>
+      <p class="text-sm text-gray-400">Created by <span class="font-semibold text-white">Damini</span> &copy; 2025</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
